@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>TenTwenty Assignment</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+	<script src="https://use.fontawesome.com/294aeda777.js"></script>
+
+</head>
+<body>
+
+
+<div class="header">
+	<div class="content">
+	<div class="topnav">
+		<div class="logo">
+			<a href="#"><img src="logo.png" width="45px"></a>
+	</div>
+	<nav>
+	<ul id="MenuItems">
+	<a href="#">Private clients</a>
+  <li><a href="#">Corporates</a></li>
+  <li><a href="#">Insights</a></li>
+ 
+ </ul>
+  </nav>
+	<nav>
+		<ul id="MenuItems">
+			<li><a href="#"> Careers</a></li>
+			<li><a href="#"> About</a></li>
+			 <li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+    <button class="button button1">Book a meeting</button>
+</div>
+
+<div class="carousel">
+    <div class="carousel-inner">
+        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+        <div class="carousel-item">
+            <img src="2.jpg">   <div class="text">Building a lasting legacy, for individuals families and
+			Businesses globally</div>
+
+        </div>
+        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item"> 
+            <img src="5.jpg"> <div class="text">Sucess stories our capabilities in action</div> 
+        </div>
+        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item">  <h3>What we do</h3>
+            <img src="3.jpg"> <div class="text">Diversifying for a more secure future</div>
+        </div>
+        <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+        <label for="carousel-2" class="carousel-control next control-1">›</label>
+        <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+        <label for="carousel-3" class="carousel-control next control-2">›</label>
+        <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+        <label for="carousel-1" class="carousel-control next control-3">›</label>
+        <ol class="carousel-indicators">
+            <li>
+                <label for="carousel-1" class="carousel-bullet">•</label>
+            </li>
+            <li>
+                <label for="carousel-2" class="carousel-bullet">•</label>
+            </li>
+            <li>
+                <label for="carousel-3" class="carousel-bullet">•</label>
+            </li>
+        </ol>
+    </div>
+</div> 
+
+
+
+
+
+
+<div class="topnav">
+
+
+
+
+
+<!-------------------->
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+	MenuItems.style.maxHeight = "0px";
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight = "200px"
+		}
+		else
+		{
+			MenuItems.style.maxHeight = "0px"
+		}
+	}
+</script>
+
+</body>
+</html>
